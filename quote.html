@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get a Quote | A-Merrickan Construction</title>
+  <meta name="description" content="Request a quote from A-Merrickan Construction for lighting fixture or gutter service needs.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Get a Quote | A-Merrickan Construction">
+  <meta property="og:description" content="Request a quote from A-Merrickan Construction for lighting fixture or gutter service needs.">
+  <meta property="og:site_name" content="A-Merrickan Construction">
+  <meta property="og:url" content="https://example.com/quote.html">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Get a Quote | A-Merrickan Construction">
+  <meta name="twitter:description" content="Request a quote from A-Merrickan Construction for lighting fixture or gutter service needs.">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "A-Merrickan Construction",
+    "telephone": "+1-678-663-5140",
+    "serviceType": [
+      "Lighting Fixtures & Equipment",
+      "Gutter Services"
+    ],
+    "areaServed": "[CLIENT SERVICE AREA]",
+    "email": "[CLIENT EMAIL]",
+    "address": "[CLIENT LOCATION]"
+  }
+  </script>
+</head>
+<body>
+  <!-- This demo notice can be removed before final publishing. -->
+  <div class="demo-notice">
+    Website concept for A-Merrickan Construction. Content can be updated after review.
+  </div>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation" data-nav>
+        <a href="index.html" data-nav-link>Home</a>
+        <a href="index.html#services" data-nav-link>Services</a>
+        <a href="index.html#about" data-nav-link>About</a>
+        <a href="index.html#reviews" data-nav-link>Reviews</a>
+        <a href="quote.html" data-nav-link>Get a Quote</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="button button-small button-outline" href="tel:+16786635140">Call Now</a>
+        <a class="button button-small button-primary" href="quote.html">Get a Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-cta" aria-label="Quick contact actions">
+    <a href="tel:+16786635140">Call</a>
+    <a href="quote.html">Get a Quote</a>
+  </div>
+
+  <main>
+    <section class="page-hero section">
+      <div class="container narrow">
+        <h1>Get a Quote</h1>
+      </div>
+    </section>
+
+    <section class="section quote-section">
+      <div class="container quote-grid">
+        <form class="quote-form card" id="quote-form" novalidate>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+
+          <div class="form-intro">
+            <h2>Contact Information</h2>
+            <p>Share your contact information and the service category. A-Merrickan Construction can follow up to discuss the project details directly.</p>
+          </div>
+
+          <div class="form-row">
+            <label for="full-name">Full Name</label>
+            <input type="text" id="full-name" name="fullName" autocomplete="name" required>
+            <span class="field-error" data-error-for="full-name"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+            <span class="field-error" data-error-for="phone"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+            <span class="field-error" data-error-for="email"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="project-location">Project Address or City</label>
+            <input type="text" id="project-location" name="projectLocation" autocomplete="street-address" required>
+            <span class="field-error" data-error-for="project-location"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="service-needed">Service Needed</label>
+            <select id="service-needed" name="serviceNeeded" required>
+              <option value="">Select a service</option>
+              <option>Lighting Fixtures &amp; Equipment</option>
+              <option>Gutter Services</option>
+              <option>Not Sure / Other</option>
+            </select>
+            <span class="field-error" data-error-for="service-needed"></span>
+          </div>
+
+          <fieldset class="form-row radio-group">
+            <legend>Preferred Contact Method</legend>
+            <label>
+              <input type="radio" name="contactMethod" value="Phone Call" required>
+              <span>Phone Call</span>
+            </label>
+            <label>
+              <input type="radio" name="contactMethod" value="Text Message">
+              <span>Text Message</span>
+            </label>
+            <label>
+              <input type="radio" name="contactMethod" value="Email">
+              <span>Email</span>
+            </label>
+            <span class="field-error" data-error-for="contactMethod"></span>
+          </fieldset>
+
+          <div class="form-row">
+            <label for="best-time">Best Time to Contact</label>
+            <input type="text" id="best-time" name="bestTime" placeholder="Example: weekday afternoons" required>
+            <span class="field-error" data-error-for="best-time"></span>
+          </div>
+
+          <button class="button button-primary form-submit" type="submit">Submit Quote Request</button>
+        </form>
+
+        <aside class="contact-card" aria-label="Contact information">
+          <div class="contact-panel">
+            <h2>Prefer to call?</h2>
+            <p>Calling is the clearest way to talk through timing, access, and project details.</p>
+            <a class="button button-secondary contact-call-button" href="tel:+16786635140">Call (678) 663-5140</a>
+            <button class="button button-outline copy-button" type="button" data-copy-phone>Copy Phone Number</button>
+            <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="index.html">A-Merrickan Construction</a>
+        <p>Website concept. Final business details should be confirmed before publishing.</p>
+      </div>
+      <div>
+        <h2 class="footer-title">Services</h2>
+        <ul>
+          <li>Lighting Fixtures &amp; Equipment</li>
+          <li>Gutter Services</li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="footer-title">Contact</h2>
+        <p><a class="footer-phone" href="tel:+16786635140">(678) 663-5140</a></p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <h2 class="footer-title">Navigation</h2>
+        <a href="index.html">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#about">About</a>
+        <a href="quote.html">Get a Quote</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
